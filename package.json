@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "script": "node index.js",
     "test": "node test.js"
   },
   "license": "ISC",
