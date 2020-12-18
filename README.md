@@ -6,4 +6,6 @@
 
 `designed`: lesson26 bootstrapでデザイン追加。セキュリティ対策無し
 
-`master`: lesson26 セキュリティ対策をした完成品
+`secure`: lesson27~32 セキュリティ対策済み
+
+`master`: lesson33 セキュリティ対策をした完成品
